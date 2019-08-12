@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAKSWZq68k9XGTkf9qmwj95AwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMzQ0YTQzZmYtMzk0YS00MjQ1LThjYzQtOGM3YWUxNDY3Mzlj
+    MB4XDTE5MDgxMjA5MTMwNFoXDTI0MDgxMDEwMTMwNFowLzEtMCsGA1UEAxMkMzQ0
+    YTQzZmYtMzk0YS00MjQ1LThjYzQtOGM3YWUxNDY3MzljMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAtNkuTKn0ganuVTWK6k2sXVvayOObSQyEJp4bDoOr
+    yGvmbWrezOJ775EYihXUQiTKmiuL5HxzV6tS05eLGx+LGGLWKi2eg1a2c5c6/zCw
+    WXPVKhJt1HdZ1MnXx3GARN6jfBjHhrNew9FPqh5/cO8rui7zK0XuuqMhfY+JQOAM
+    4sWT28Ptdnqoqfbet2tVZmwTls1mZmHdL1ycqT1/nyHBHRP3lIjBYkyQpbyNLFz3
+    oq3IyMa86zxo0lsNdXh3C/SRTQEObcyCw+jvKpiW22drwKChwVqzqItsv1iILgKd
+    rGG7ByAGYnAtjj3anHhuyWHiNYmilMJBOalber4HMJd4/wIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    BU+McDAG+mgHG+ECkr8KwpcwsuWWfgjiIyjFXt0M2VrSC8Le5zQcwcP2Wr615l6Q
+    TY/EkoDEUZN1yDGuKQjkwFnjrKddi/daHojqd9DU1cNwL3RWxoXdXtdsp/zZj15p
+    XGN+Qp2iSKMcLIEuDrEj8vngHfyONbrjrgI1lK8idN6X5MxjrFlk36fjgwJvvOwc
+    TIVzigbDCsU5cVVgV7342ZGczrxIFBMTKy0l+MNKiR/aJMgA51b3W9jIcyPfCQ2g
+    ly4R/EMbk+Zq0yQM8MdjSSvOlniePddkV3utBh4QO4O4n8gllCEoFgtYQAa9afAC
+    LMumQpx+Ac53Cg6VoptH2w==
+    -----END CERTIFICATE-----
+  clusterName: lizardlunar
+  jx-install-version: 2.0.581
+  kubeProvider: gke
+  projectID: gke-migration-poc
+  region: ""
+  secretsLocation: vault
+  server: https://35.241.119.173
+  systemVaultName: jx-vault-lizardlunar
+  zone: asia-east2-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
